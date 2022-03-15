@@ -1,0 +1,14 @@
+.menu {
+    box-sizing: border-box;
+    width: 220px;
+}
+.menu li a {
+    display: block;
+    padding: 1.6em 2.2em;
+    color: rgb(60, 60, 60);
+}
+.active {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600;
+    background-color: rgb(46, 134, 193);
+}

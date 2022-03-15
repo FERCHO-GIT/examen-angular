@@ -1,0 +1,10 @@
+<h1>{{ title }}</h1>
+<ul class="box">
+    <li *ngFor="let dish of dishArray">
+        <a href="#">
+            <img [src]="dish.strCategoryThumb" alt="">
+            <h4>{{ dish.strCategory }}</h4>
+            <p>{{ dish.strCategoryDescription }}</p>
+        </a>
+    </li>
+</ul>

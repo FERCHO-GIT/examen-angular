@@ -1,0 +1,15 @@
+.gretting {
+    position: absolute;
+    top: 1.8em;
+    right: 2.4em;
+}
+.random-dish {
+    text-align: center;
+}
+.random-dish h2 {
+    font-size: 100%;
+}
+.random-dish img {
+    width: 65%;
+    border-radius: 2px;
+}

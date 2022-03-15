@@ -1,0 +1,23 @@
+[
+    {
+        "id" : "1001",
+        "first_name" : "fernando",
+        "last_name": "rosario",
+        "email" : "frosario@mail.com",
+        "password" : "6$uYhsD2"
+    },
+    {
+        "id" : "1002",
+        "first_name" : "ernesto",
+        "last_name": "torres",
+        "email" : "etorres@mail.com",
+        "password" : "wE5$kOpS"
+    },
+    {
+        "id" : "1003",
+        "first_name" : "rocio",
+        "last_name": "gutierrez",
+        "email" : "rgutierrez@mail.com",
+        "password" : "kWQ5$3nm"
+    }
+]

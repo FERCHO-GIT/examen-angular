@@ -1,0 +1,9 @@
+<h1>Login</h1>
+<p>{{ message }}</p>
+<form (ngSubmit)="checkCredentials(loginForm)" #loginForm="ngForm">
+    <label for="email">Email</label>
+    <input type="text" name="email" [(ngModel)]="loginModel.email">
+    <label for="password">Password</label>
+    <input type="password" name="password" [(ngModel)]="loginModel.password">
+    <input type="submit" value="Enter">
+</form>

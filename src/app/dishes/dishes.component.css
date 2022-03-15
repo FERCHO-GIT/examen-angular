@@ -1,0 +1,18 @@
+.box li img {
+    width: 230px;
+    float: left;
+    margin: 1.2em 1.2em 1.32em 0;
+}
+.box li {
+    margin: 0.8em 0;
+}
+.box li a {
+    display: block;
+    color: rgb(60, 60, 60);
+    overflow: hidden;
+}
+.box li a:hover {
+    border: 1px solid rgb(191, 201, 202);
+    border-radius: 2px;
+    box-shadow: 3px 1px 1px rgb(191, 201, 202);
+}

@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 100%;
+    color: rgb(60, 60, 60);
+    margin: 0;
+}
+header {
+    border-bottom: 1px solid rgb(213, 219, 219);
+    background-image: url('./assets/images/kitchen-icon.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: -14px -16px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+main {
+    display: flex;
+}
+section {
+    border-left: 1px solid rgb(213, 219, 219);
+    padding: 1.8em 2.4em;
+    position: relative;
+    width: 100%;
+}
+footer {
+    border-top: 1px solid rgb(213, 219, 219);
+}
